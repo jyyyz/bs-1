@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5fdb3c7-7c9e-4ec6-afc1-0d14bea507ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bs-generator/target/bs-generator-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-generator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/CustomAuthorityDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/JwtAuthencationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/AdminInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/HelpInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/ShareInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/WsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/mapper/HelpInformationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/mapper/ShareInformationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/AdminRegisterParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/ChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/FileUploadResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/HelpInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/ShareInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/IHelpInformationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/IShareInformationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/impl/HelpInformationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/impl/ShareInformationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/utils/AdminUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/utils/FastDFSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/resources/mapper/HelpInformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/src/main/resources/mapper/ShareInformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/bs-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/CustomAuthorityDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/WebSocketConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/AdminInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/HelpInformationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/ShareInformationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/WsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/exception/GlobalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/mapper/HelpInformationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/mapper/ShareInformationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/AdminRegisterParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/ChatMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/FileUploadResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/HelpInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/ShareInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/FileUploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/IHelpInformationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/IShareInformationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/impl/HelpInformationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/impl/ShareInformationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/utils/AdminUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/utils/FastDFSUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/mapper/HelpInformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/classes/mapper/ShareInformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/BsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/BsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/CaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/CaptchaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/security/JwtAuthencationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/security/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/config/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/CaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/CaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/IAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/java/com/xxx/server/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/BsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/BsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/CaptchaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/CaptchaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/security/JwtAuthencationTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/security/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/config/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/CaptchaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/CaptchaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/pojo/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/IAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/IAdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/com/xxx/server/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-server/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-server/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\Maven\LocalWarehouse" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="G:\Maven\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="24VuJi2BtrMBStJ1rnflavvrk4V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xxx.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\bs\bs-server\src\main\java\com\xxx\server\pojo" />
+      <recent name="G:\project\bs\bs-server\src\main\java\com\xxx\server\controller" />
+      <recent name="G:\project\bs\bs-server\src\main\java\com\xxx\server\utils" />
+      <recent name="G:\project\bs\bs-server\src\main\java\com\xxx\server\service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xxx.server.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\project\bs\bs-server\src\main\java\com\xxx\server\service\impl" />
+      <recent name="G:\project\bs\bs-server\src\main\resources\mapper" />
+      <recent name="G:\project\bs\bs-server\src\main\resources\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BsApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxx.generator.CodeGenerator" />
+      <module name="bs-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxx.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bs-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxx.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxx.server.BsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BsApplication" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5fdb3c7-7c9e-4ec6-afc1-0d14bea507ef" name="Default Changelist" comment="" />
+      <created>1643728005189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643728005189</updated>
+      <workItem from="1643728021433" duration="2360000" />
+      <workItem from="1644389337420" duration="6189000" />
+      <workItem from="1644415829213" duration="862000" />
+      <workItem from="1644416804714" duration="140000" />
+      <workItem from="1644416968952" duration="779000" />
+      <workItem from="1644418183709" duration="21454000" />
+      <workItem from="1644478206582" duration="8569000" />
+      <workItem from="1644560772776" duration="12535000" />
+      <workItem from="1644574346454" duration="13149000" />
+      <workItem from="1644809873816" duration="10335000" />
+      <workItem from="1644821109245" duration="1662000" />
+      <workItem from="1644822896511" duration="759000" />
+      <workItem from="1644824575152" duration="1445000" />
+      <workItem from="1644895946109" duration="5257000" />
+      <workItem from="1645002726447" duration="5066000" />
+      <workItem from="1645414809199" duration="1580000" />
+      <workItem from="1645417470078" duration="20898000" />
+      <workItem from="1645501224744" duration="9228000" />
+      <workItem from="1645685247867" duration="10953000" />
+      <workItem from="1645769535522" duration="11748000" />
+      <workItem from="1645789825969" duration="8518000" />
+      <workItem from="1645854979233" duration="8137000" />
+      <workItem from="1645864210608" duration="12181000" />
+      <workItem from="1645888324903" duration="666000" />
+      <workItem from="1645889213864" duration="2506000" />
+      <workItem from="1645940297251" duration="17863000" />
+      <workItem from="1645987008579" duration="8615000" />
+      <workItem from="1646027712164" duration="26667000" />
+      <workItem from="1646112905814" duration="2156000" />
+      <workItem from="1646148590149" duration="629000" />
+      <workItem from="1646311957887" duration="4467000" />
+      <workItem from="1646377546360" duration="1231000" />
+      <workItem from="1646640925684" duration="1310000" />
+      <workItem from="1646728353861" duration="9110000" />
+      <workItem from="1646746699418" duration="3307000" />
+      <workItem from="1646750691849" duration="1854000" />
+      <workItem from="1646752902485" duration="781000" />
+      <workItem from="1646754053167" duration="2281000" />
+      <workItem from="1646756676472" duration="2227000" />
+      <workItem from="1646834029558" duration="1212000" />
+      <workItem from="1648096589893" duration="3239000" />
+      <workItem from="1648443476282" duration="12945000" />
+      <workItem from="1648554450882" duration="5000000" />
+      <workItem from="1648706365897" duration="2476000" />
+      <workItem from="1649323651793" duration="6486000" />
+      <workItem from="1649657619655" duration="10798000" />
+      <workItem from="1649742227129" duration="2381000" />
+      <workItem from="1650007966134" duration="2274000" />
+      <workItem from="1650092583391" duration="3675000" />
+      <workItem from="1650182431483" duration="6531000" />
+      <workItem from="1650205495572" duration="7591000" />
+      <workItem from="1650262860036" duration="14467000" />
+      <workItem from="1650362851843" duration="148000" />
+      <workItem from="1650363642225" duration="4673000" />
+      <workItem from="1650444598425" duration="800000" />
+      <workItem from="1652267736129" duration="5282000" />
+      <workItem from="1666926501547" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="254" key="#Custom_Plugin_Repositories" timestamp="1646641110651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="624" y="254" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1646641110651" />
+    <state x="891" y="114" key="#HTTP_Proxy" timestamp="1646641055851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="891" y="114" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1646641055851" />
+    <state x="464" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1644811799749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1644811799749" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644413723927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1644413723927" />
+    <state x="776" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1645954430557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="776" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1645954430557" />
+    <state x="397" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1644420987165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1644420987165" />
+    <state x="544" y="279" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1644420613787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="279" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1644420613787" />
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1644420989000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1644420989000" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1646756322569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1646756322569" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1646377997464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1646377997464" />
+    <state width="1493" height="39" key="GridCell.Tab.0.bottom" timestamp="1652280461832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652280461832" />
+    <state width="1493" height="39" key="GridCell.Tab.0.center" timestamp="1652280461831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652280461831" />
+    <state width="1493" height="39" key="GridCell.Tab.0.left" timestamp="1652280461830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652280461830" />
+    <state width="1493" height="39" key="GridCell.Tab.0.right" timestamp="1652280461831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652280461831" />
+    <state width="1493" height="39" key="GridCell.Tab.1.bottom" timestamp="1652280461832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652280461832" />
+    <state width="1493" height="39" key="GridCell.Tab.1.center" timestamp="1652280461832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1652280461832" />
+    <state width="1493" height="39" key="GridCell.Tab.1.left" timestamp="1652280461832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1652280461832" />
+    <state width="1493" height="39" key="GridCell.Tab.1.right" timestamp="1652280461832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1652280461832" />
+    <state width="1493" height="183" key="GridCell.Tab.2.bottom" timestamp="1646750205132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646750205132" />
+    <state width="1493" height="183" key="GridCell.Tab.2.center" timestamp="1646750205132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1646750205132" />
+    <state width="1493" height="183" key="GridCell.Tab.2.left" timestamp="1646750205132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1646750205132" />
+    <state width="1493" height="183" key="GridCell.Tab.2.right" timestamp="1646750205132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1646750205132" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1645783514876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1645783514876" />
+    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1646032055437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1646032055437" />
+    <state x="245" y="50" key="SettingsEditor" timestamp="1646641138105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="245" y="50" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646641138105" />
+    <state x="174" y="46" key="new project wizard" timestamp="1646030260241">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="174" y="46" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1646030260241" />
+    <state x="545" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1644479202340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1644479202340" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1645964936695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1645964936695" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="org.csource.fastdfs.StorageClient" fieldName="storageServer" />
+        <PinnedItemInfo typeName="org.csource.fastdfs.StorageClient" fieldName="trackerServer" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

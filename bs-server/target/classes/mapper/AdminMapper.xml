@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxx.server.mapper.AdminMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxx.server.pojo.Admin">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="phone" property="phone" />
+        <result column="status" property="status" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="user_face" property="userFace" />
+    </resultMap>
+    <resultMap id="Admin" type="com.xxx.server.pojo.Admin" extends="BaseResultMap">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, phone, status, username, password, user_face
+    </sql>
+
+    <!--获取所有操作员-->
+    <select id="getAllAdmins" resultMap="Admin">
+        SELECT
+            a.*
+        FROM
+            t_admin a
+        WHERE
+            a.id != #{id} and a.id != 1
+            <if test="null!=keywords and '' !=keywords">
+                AND a.`name` LIKE CONCAT('%',#{keywords},'%');
+            </if>
+        ORDER BY
+            a.id
+    </select>
+
+
+
+</mapper>

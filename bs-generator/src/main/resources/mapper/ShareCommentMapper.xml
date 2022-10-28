@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxx.server.mapper.ShareCommentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxx.server.pojo.ShareComment">
+        <id column="commentId" property="commentId" />
+        <result column="shareId" property="shareId" />
+        <result column="commentator" property="commentator" />
+        <result column="commentBody" property="commentBody" />
+        <result column="commentCreateTime" property="commentCreateTime" />
+        <result column="replyBody" property="replyBody" />
+        <result column="replyCreateTime" property="replyCreateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        commentId, shareId, commentator, commentBody, commentCreateTime, replyBody, replyCreateTime
+    </sql>
+
+</mapper>
